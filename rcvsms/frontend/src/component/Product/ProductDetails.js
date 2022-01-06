@@ -3,7 +3,7 @@ import Carousel from "react-material-ui-carousel";
 import "./ProductDetails.css";
 import { useSelector, useDispatch } from "react-redux";
 import {
-  clearErrors,
+  clearErrors, 
   getProductDetails,
   newReview,
 } from "../../actions/productAction";
